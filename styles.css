@@ -1,0 +1,115 @@
+html, body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.rating-number {
+  font-size: 1.5rem;
+  flex: 1;
+  text-align: center;
+}
+
+.rating-box {
+  display: flex;
+  margin: 30px auto 0;
+  ;
+}
+
+.rating-number .card-text {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: hsl(213, 19%, 18%);
+  text-align: center;
+}
+
+.submit {
+  margin-top: 40px;
+  font-family: "Overpass";
+  font-weight: 700;
+  color: white;
+  padding-top: 10px;
+  border-radius: 25px;
+  background-color: hsl(25, 97%, 53%);
+}
+
+.rate-me {
+  line-height: 10.65px;
+  font-size: 15px;
+  border: 0;
+  color: hsl(216, 12%, 54%);
+  font-family: "Overpass";
+  font-weight: 400;
+}
+
+.icon-star {
+  width: 1rem;
+  line-height: 10.65px;
+}
+
+.star {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-color: hsl(213, 19%, 18%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 20px 12px;
+}
+
+h5 {
+  color: white;
+  font-family: "Overpass";
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+p {
+  color: hsl(216, 12%, 54%);
+  font-family: "Overpass";
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: hsl(216, 12%, 8%);
+  border-radius: 25px;
+}
+
+.submit:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+}
+
+.rate-me:hover {
+  color: white;
+  background-color: hsl(217, 12%, 63%);
+}
+
+.star:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.thankyou-container {
+  text-align: center;
+}
+
+.thankyou-image {
+  width: 170px;
+  position: relative;
+  left: 90px;
+  padding-top: 50px;
+}
+
+.thankyou-text {
+  padding-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
